@@ -22,6 +22,8 @@ The project focuses on understanding which products generate the most revenue, w
 
 The project uses the Online Retail II dataset, containing transaction records from a UK-based online retailer.
 
+**Original Dataset:** [Online Retail II – Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
+
 The original CSV contains 1,048,575 rows and 8 columns.
 
 The dataset includes:
@@ -78,8 +80,6 @@ Two interactive Power BI dashboard pages were created to present the analysis.
 
 #### Page 1 — Online Retail Sales Overview
 
-![Online Retail Sales Overview](images/dashboard_page1.png)
-
 This dashboard provides an overview of overall sales performance and trends.
 
 **Key metrics and visualizations:**
@@ -94,8 +94,6 @@ This dashboard provides an overview of overall sales performance and trends.
 - Year, Country, and Product slicers
 
 #### Page 2 — Product & Customer Analysis
-
-![Product and Customer Analysis](images/dashboard_page2.png)
 
 This dashboard focuses on product performance and customer spending.
 
@@ -129,7 +127,6 @@ The yearly comparison should be interpreted carefully because 2009 covers only p
 online-retail-data-analysis/
 │
 ├── data/
-│   ├── online_retail_II.csv
 │   └── online_retail_clean.csv
 │
 ├── notebooks/
@@ -169,4 +166,5 @@ It showcases practical skills in data preparation, exploratory analysis, busines
 ## medisa
 
 **Data Analyst Portfolio Project**
+
 
