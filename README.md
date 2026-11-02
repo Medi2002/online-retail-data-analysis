@@ -20,11 +20,11 @@ The project focuses on understanding which products generate the most revenue, w
 
 ## Dataset
 
-The project uses the Online Retail II dataset, containing transaction records from a UK-based online retailer.
+This project uses the **Online Retail II** dataset, which contains transaction records from a UK-based online retailer.
 
 **Original Dataset:** [Online Retail II – Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
 
-The original CSV contains 1,048,575 rows and 8 columns.
+The original dataset contains 1,048,575 rows and 8 columns.
 
 The dataset includes:
 
@@ -37,7 +37,9 @@ The dataset includes:
 - `Customer ID` — Customer identifier
 - `Country` — Customer's country
 
-After data cleaning and filtering, the resulting dataset contains **793,309 rows and 10 columns**, including the calculated `Revenue` and `Season` columns.
+The original dataset was downloaded from Kaggle, cleaned and processed using Python and Pandas. The cleaned data was then used for exploratory data analysis and Power BI dashboard development.
+
+**Note:** The original and cleaned CSV files are not included in this repository. You can download the original dataset using the Kaggle link above.
 
 ## Project Workflow
 
@@ -107,10 +109,10 @@ This dashboard focuses on product performance and customer spending.
 
 ## Key Business Insights
 
-The following findings are based on calculations from the cleaned CSV.
+The following findings are based on calculations performed using the cleaned dataset.
 
 - **Total revenue:** Approximately 17.32 million in the dataset's recorded currency.
-- **Transaction volume:** 36,457 unique invoices are present in the cleaned dataset.
+- **Transaction volume:** 36,457 unique invoices.
 - **Customer base:** 5,860 unique customers.
 - **Product variety:** 4,630 unique product codes.
 - **Leading market:** The United Kingdom generates approximately 14.34 million in revenue.
@@ -126,9 +128,6 @@ The yearly comparison should be interpreted carefully because 2009 covers only p
 ```text
 online-retail-data-analysis/
 │
-├── data/
-│   └── online_retail_clean.csv
-│
 ├── notebooks/
 │   └── online_retail_analysis.ipynb
 │
@@ -142,6 +141,22 @@ online-retail-data-analysis/
 ├── README.md
 └── requirements.txt
 ```
+
+## How to Run This Project
+
+1. Clone or download this repository.
+2. Download the original [Online Retail II dataset from Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci).
+3. Place the downloaded CSV file in the appropriate location expected by the Jupyter Notebook.
+4. Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Open `online_retail_analysis.ipynb` in Jupyter Notebook.
+6. Run the notebook cells to perform data cleaning and exploratory data analysis.
+
+To explore the interactive dashboards, open the Power BI file located in the `powerbi` folder.
 
 ## Skills Demonstrated
 
@@ -166,5 +181,4 @@ It showcases practical skills in data preparation, exploratory analysis, busines
 ## medisa
 
 **Data Analyst Portfolio Project**
-
 
